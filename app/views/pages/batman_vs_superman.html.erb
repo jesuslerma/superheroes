@@ -1,11 +1,15 @@
 <p id="notice"><%= notice %>
 
 <div id="batman" >
-  <%= link_to 'BATMAN', pages_batman_path %>
+  <%= link_to(pages_batman_path) do %>
+    <h1>Batman</h1>
+    <img src = 'http://images6.fanpop.com/image/photos/33300000/-BATMAN-THE-DARK-KIGHT-RISES-the-dark-knight-rises-33321074-820-974.jpg'>
+  <% end %>
 </div>
 
 <div id="superman" >
-  <%= link_to 'SUPERAM', pages_superman_path %>
+  <%= link_to pages_superman_path  do %>
+    <h1>Superman</h1>
+    <img src = 'http://vignette4.wikia.nocookie.net/infinite-loops/images/9/94/500px-Superman.png/revision/latest?cb=20141129211309'>
+  <% end %>
 </div>
-
-
